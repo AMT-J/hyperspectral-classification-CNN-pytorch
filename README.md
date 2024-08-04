@@ -3,6 +3,8 @@ A classification method for hyperspectral data based on convolutional neural net
 
 ## Requirements
 ```
-conda create -n HC python=3.8
-pip install -r requirements.txt
+conda create -n HC python=3.8  
+pip install -r requirements.txt  
+conda install -c conda-forge cudatoolkit=11.2  
+conda install -c conda-forge cudnn=8.1.0  
 ```
