@@ -5,6 +5,5 @@ A classification method for hyperspectral data based on convolutional neural net
 ```
 conda create -n HC python=3.8  
 pip install -r requirements.txt  
-conda install -c conda-forge cudatoolkit=11.2  
-conda install -c conda-forge cudnn=8.1.0  
+conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 cudnn=7.6.5 -c pytorch 
 ```
